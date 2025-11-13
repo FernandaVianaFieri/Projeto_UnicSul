@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Clientes</title>
+<link rel="icon" href="imagens/xicara.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar novo cliente</h1>
+	<form name="frmCliente" action="insert">
+		<table>
+
+			<tr>
+				<td><input type="text" name="cpf" placeholder="CPF"></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+
+<tr>
+				<td><input type="text" name="email" placeholder="E-mail"class="Caixa1"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="dtaNasc" placeholder="DtaNasc"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="telefone" placeholder="Telefone"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="endereco" placeholder="Endereço" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onClick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
